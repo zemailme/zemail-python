@@ -29,19 +29,19 @@
       "out": [
         {
           "file": "pyproject.toml",
-          "patch": "version = \"${version}\""
+          "prefix": "version = \""
         },
         {
           "file": "zemail/__init__.py",
-          "patch": "__version__ = \"${version}\""
+          "prefix": "__version__ = \""
         },
         {
           "file": "zemail/client.py",
-          "patch": "\"User-Agent\": \"zemail-python-sdk/${version}\""
+          "prefix": "\"User-Agent\": \"zemail-python-sdk/"
         },
         {
           "file": "tests/test_client.py",
-          "patch": "\"zemail-python-sdk/${version}\""
+          "prefix": "\"User-Agent\": \"zemail-python-sdk/"
         }
       ]
     }
