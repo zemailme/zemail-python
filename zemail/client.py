@@ -34,7 +34,7 @@ class ZemailClient:
             "Authorization": f"Bearer {self.api_key}",
             "Accept": "application/json",
             "Content-Type": "application/json",
-            "User-Agent": "zemail-python-sdk/1.2.0",
+            "User-Agent": "zemail-python-sdk/1.2.1",
         }
         if self.version:
             default_headers["Zemail-Version"] = self.version
