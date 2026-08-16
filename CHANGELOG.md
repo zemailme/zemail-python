@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.1](https://github.com/zemailme/zemail-python/compare/v1.1.0...v1.1.1) (2026-08-16)
+
+### Bug Fixes
+
+* ensure pyproject.toml version and bumper prefix format ([06a4697](https://github.com/zemailme/zemail-python/commit/06a46974ed79b6203c89990d7aa777257fc98024))
+
 ## 1.1.0 (2026-08-16)
 
 ### Features
