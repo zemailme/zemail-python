@@ -26,3 +26,7 @@ MANIFEST
 
 # Ruff
 .ruff_cache/
+
+# Node
+node_modules/
+

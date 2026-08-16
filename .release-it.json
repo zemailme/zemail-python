@@ -1,0 +1,52 @@
+{
+  "git": {
+    "commitMessage": "chore: release v${version}",
+    "tagName": "v${version}",
+    "requireCleanWorkingDir": true,
+    "requireBranch": "main",
+    "requireCommits": false,
+    "commit": true,
+    "tag": true,
+    "push": true
+  },
+  "github": {
+    "release": true,
+    "releaseName": "v${version}",
+    "autoGenerate": true
+  },
+  "npm": {
+    "publish": false
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": {
+        "name": "conventionalcommits"
+      },
+      "infile": "CHANGELOG.md",
+      "header": "# Changelog\n\nAll notable changes to this project will be documented in this file."
+    },
+    "@release-it/bumper": {
+      "out": [
+        {
+          "file": "pyproject.toml",
+          "patch": "version = \"${version}\""
+        },
+        {
+          "file": "zemail/__init__.py",
+          "patch": "__version__ = \"${version}\""
+        },
+        {
+          "file": "zemail/client.py",
+          "patch": "\"User-Agent\": \"zemail-python-sdk/${version}\""
+        },
+        {
+          "file": "tests/test_client.py",
+          "patch": "\"zemail-python-sdk/${version}\""
+        }
+      ]
+    }
+  },
+  "hooks": {
+    "before:init": ["pytest", "ruff check .", "ruff format --check ."]
+  }
+}
