@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0](https://github.com/zemailme/zemail-python/compare/v1.2.1...v1.3.0) (2026-08-16)
+
+### Bug Fixes
+
+* remove deprecated License classifier from pyproject.toml ([13a9b1a](https://github.com/zemailme/zemail-python/commit/13a9b1a9da9a607e8e8b40b50db9b6ecc7079435))
+
 ## [1.2.1](https://github.com/zemailme/zemail-python/compare/v1.1.1...v1.2.1) (2026-08-16)
 
 ## [1.1.1](https://github.com/zemailme/zemail-python/compare/v1.1.0...v1.1.1) (2026-08-16)

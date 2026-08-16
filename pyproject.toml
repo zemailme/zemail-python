@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "zemail-python"
-version = "1.2.1"
+version = "1.3.0"
 description = "Official Python SDK for the Zemail Developer API"
 readme = "README.md"
 license = "MIT"
