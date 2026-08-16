@@ -29,6 +29,7 @@
       "out": [
         {
           "file": "pyproject.toml",
+          "type": "text/plain",
           "prefix": "version = \""
         },
         {
