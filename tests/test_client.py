@@ -10,7 +10,7 @@ def test_client_initialization(api_key):
     assert client.base_url == "https://zemail.me/api"
     assert client.http_client.headers["Authorization"] == f"Bearer {api_key}"
     assert client.http_client.headers["Zemail-Version"] == "2026-04-23"
-    assert client.http_client.headers["User-Agent"] == "zemail-python-sdk/1.0.0"
+    assert client.http_client.headers["User-Agent"] == "zemail-python-sdk/1.1.0"
 
 
 def test_client_custom_options(api_key):
