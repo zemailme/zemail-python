@@ -1,8 +1,8 @@
 # Zemail Python SDK
 
-[![Latest Version on PyPI](https://img.shields.io/pypi/v/zemail.svg?style=flat-square)](https://pypi.org/project/zemail/)
+[![Latest Version on PyPI](https://img.shields.io/pypi/v/zemail-python.svg?style=flat-square)](https://pypi.org/project/zemail-python/)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/zemailme/zemail-python/ci.yml?branch=main&label=tests&style=flat-square)](https://github.com/zemailme/zemail-python/actions?query=workflow%3ACI+branch%3Amain)
-[![Python Version](https://img.shields.io/pypi/pyversions/zemail.svg?style=flat-square)](https://pypi.org/project/zemail/)
+[![Python Version](https://img.shields.io/pypi/pyversions/zemail-python.svg?style=flat-square)](https://pypi.org/project/zemail-python/)
 [![License](https://img.shields.io/github/license/zemailme/zemail-python?style=flat-square)](https://github.com/zemailme/zemail-python/blob/main/LICENSE)
 
 The official Python SDK for the [Zemail Developer API](https://zemail.me/api-docs). Create and manage temporary mailboxes, receive emails, and handle attachments programmatically.
@@ -22,7 +22,7 @@ The official Python SDK for the [Zemail Developer API](https://zemail.me/api-doc
 Install the package via `pip`:
 
 ```bash
-pip install zemail
+pip install zemail-python
 ```
 
 Or install the latest development version directly from GitHub:
