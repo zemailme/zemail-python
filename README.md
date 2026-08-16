@@ -1,9 +1,9 @@
 # Zemail Python SDK
 
-[![Latest Version on PyPI](https://img.shields.io/pypi/v/zemail-python.svg?style=flat-square)](https://pypi.org/project/zemail-python/)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/zemailme/zemail-python/ci.yml?branch=main&label=tests&style=flat-square)](https://github.com/zemailme/zemail-python/actions?query=workflow%3ACI+branch%3Amain)
-[![Python Version](https://img.shields.io/pypi/pyversions/zemail-python.svg?style=flat-square)](https://pypi.org/project/zemail-python/)
-[![License](https://img.shields.io/github/license/zemailme/zemail-python?style=flat-square)](https://github.com/zemailme/zemail-python/blob/main/LICENSE)
+[![Latest Version on PyPI](https://img.shields.io/pypi/v/zemail-python.svg?style=flat-square&cache=1.3.0)](https://pypi.org/project/zemail-python/)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/zemailme/zemail-python/ci.yml?branch=main&label=tests&style=flat-square&cache=1.3.0)](https://github.com/zemailme/zemail-python/actions?query=workflow%3ACI+branch%3Amain)
+[![Python Version](https://img.shields.io/pypi/pyversions/zemail-python.svg?style=flat-square&cache=1.3.0)](https://pypi.org/project/zemail-python/)
+[![License](https://img.shields.io/github/license/zemailme/zemail-python?style=flat-square&cache=1.3.0)](https://github.com/zemailme/zemail-python/blob/main/LICENSE)
 
 The official Python SDK for the [Zemail Developer API](https://zemail.me/api-docs). Create and manage temporary mailboxes, receive emails, and handle attachments programmatically.
 
